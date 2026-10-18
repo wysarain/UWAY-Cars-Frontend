@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Uway Cars - Car Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Uway Cars</h1>
+    <p class="tagline">Car Booking and Car Rental Website</p>
+
+    <p class="nav">
+      <a href="index.html">Home</a> | <a href="about.html">About</a> |
+      <a href="cars.html">Cars</a> | <a href="booking.html">Booking</a> |
+      <a href="services.html">Services</a> |
+      <a href="gallery.html">Gallery</a> | <a href="events.html">Events</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+
+    <hr />
+
+    <h2>Car Booking Form</h2>
+    <p>
+      Fill in this form to book a car. You can see the cars and sample prices on
+      the <a href="cars.html">cars page</a>.
+    </p>
+    <form>
+      <p>
+        <label
+          >Full Name:<br />
+          <input type="text" name="name"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Email Address:<br />
+          <input type="text" name="email"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Contact Number:<br />
+          <input type="text" name="phone"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Select a Car:<br />
+          <select name="car">
+            <option>-- Choose a car --</option>
+            <option>Suzuki Alto</option>
+            <option>Suzuki Cultus</option>
+            <option>Suzuki Wagon R</option>
+            <option>Suzuki Swift</option>
+            <option>Toyota Yaris</option>
+            <option>Toyota Corolla</option>
+          </select></label
+        >
+      </p>
+
+      <p>
+        <label
+          >Pickup Date (example: 20-10-2026):<br />
+          <input type="date" name="pickup-date"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Return Date (example: 22-10-2026):<br />
+          <input type="date" name="return-date"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Pickup Location:<br />
+          <input type="text" name="pickup-location"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Return Location:<br />
+          <input type="text" name="return-location"
+        /></label>
+      </p>
+
+      <p>
+        <label
+          >Any Message:<br />
+          <textarea name="message" cols="40" rows="5"></textarea>
+        </label>
+      </p>
+
+      <p>
+        <input type="submit" value="Send Booking Request" />
+      </p>
+    </form>
+
+    <hr />
+    <p class="footer">
+      Uway Cars | Author : Awais Afzal | INFT251103050 | KFUEIT
+    </p>
+  </body>
+</html>
